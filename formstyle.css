@@ -1,0 +1,33 @@
+#titleContent
+{
+   display: flex;
+   justify-content: center;
+    background-color:ivory;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    /* margin: 20px; */
+}
+#rowtitle
+{
+    background-color:cadetblue;
+    
+}
+.parent-main
+{
+    margin: 10px;
+}
+.checked{
+    color: orange;
+}
+label{
+    font-weight: bold;
+}
+.pur{
+    background-color:beige;
+}
+.ser
+{
+    background-color: cornsilk;
+    
+}

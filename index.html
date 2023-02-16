@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="formstyle.css"/>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+    <div class="row" id="rowtitle">
+        <div class="col-3 "></div>
+        <div id="titleContent" class="  col-sm-6 col-xs-8">SURVEY FORM</div>
+        <div class="col-3 "></div>   
+    </div>
+    <div class="parent-main">
+        <!-- <div class="input-group has-validation" style="position: relative">
+            <span style="position: absolute; top: -25px; right: 0px; color: #a71d5d ;"for="floatingInputGroup2">* required</span>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="floatingInputGroup2" placeholder="firstname" required/>
+                <label for="floatingInputGroup2">Name</label>
+            </div> -->
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="position: relative">
+                    <span style="position: absolute; top: -10px; right: 25px; color: #e61616 ;"for="validationCustom01">* required</span>
+                  <label for="validationCustom01" class="form-label">First name</label>
+                  <input type="text" class="form-control" id="validationCustom01" placeholder="firstname" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" style="position: relative">
+                    <span style="position: absolute; top: -10px; right: 25px; color: #e61616 ;"for="validationCustom01">*required</span>
+                  <label for="validationCustom02" class="form-label">Last name</label>
+                  <input type="text" class="form-control" id="validationCustom02" placeholder="lastname"value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="mb-3"style="position: relative">
+                    <span style="position: absolute; top: -10px; right: 25px; color: #e61616 ;"for="validationCustom01">*required</span>
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3"style="position: relative">
+                    <span style="position: absolute; top: -10px; right: 25px; color: #e61616 ;"for="validationCustom01">*required</span>
+                    <label class="form-label">Your Experience</label>
+                    <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+                    <!-- <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"> -->
+                    <div><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                     <span class="fa fa-star"></span></div>
+                </div>
+                <div style="position: relative">
+                    <span style="position: absolute; top: -10px; right: 25px; color: #e61616 ;"for="validationCustom01">*required</span>
+                    <label class="form-label">How satisfied are you with?</label>
+                </div>
+                <div class="row border border-dark-subtle pur">
+                    <div class="col-lg-2 col-xs-12">
+                        <label class="form-label">Purchase</label>
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel1" id="radioNoLabel11" value="check1" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12 ">
+                        <input class="form-check-input" type="radio" name="radioNoLabel1" id="radioNoLabel11" value="check1" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12 ">
+                        <input class="form-check-input" type="radio" name="radioNoLabel1" id="radioNoLabel11" value="check1" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12 ">
+                        <input class="form-check-input" type="radio" name="radioNoLabel1" id="radioNoLabel11" value="check1" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12 ">
+                        <input class="form-check-input" type="radio" name="radioNoLabel1" id="radioNoLabel11" value="check1" aria-label="...">
+                    </div>
+                </div>
+                <div class="row  border border-dark-subtle ser">
+                    <div class="col-lg-2 col-xs-12">
+                        <label class="form-label">Service</label>
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel2" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel2" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel2" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel2" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel2" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                </div>
+                <div class="row  border border-dark-subtle pur">
+                    <div class="col-lg-2 col-xs-12">
+                        <label class="form-label">Company Overall</label>
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel3" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel3" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel3" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel3" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel3" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                </div>
+                <div style="position: relative">
+                    <span style="position: absolute; top: -10px; right: 25px; color: #e61616 ;"for="validationCustom01">*required</span>
+                    <label class="form-label">How likely are you to?</label>
+                </div>
+                <div class="row border border-dark-subtle pur">
+                    <div class="col-lg-2 col-xs-12">
+                        <label class="form-label">Buy from us again</label>
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel4" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel4" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel4" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel4" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel4" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                </div>
+                <div class="row border border-dark-subtle ser">
+                    <div class="col-lg-2 col-xs-12">
+                        <label class="form-label">Recommend our products to others</label>
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel5" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel5" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel5" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel5" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel5" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                </div>
+                <div class="row border border-dark-subtle pur">
+                    <div class="col-lg-2 col-xs-12">
+                        <label class="form-label">Recommend our company to others</label>
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                    <div class="col-lg-2 col-xs-12">
+                        <input class="form-check-input" type="radio" name="radioNoLabel" id="radioNoLabel1" value="" aria-label="...">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Additional comments or suggestions</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+              </form>
+
+            
+    </div>
+</body>
+</html>
